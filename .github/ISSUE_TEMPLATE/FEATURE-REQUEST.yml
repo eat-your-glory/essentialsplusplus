@@ -6,22 +6,6 @@ labels: [
 ]
 body:
   - type: textarea
-    id: summary
-    attributes:
-      label: "Summary"
-      description: Provide a brief explanation of the feature
-      placeholder: Describe in a few lines your feature request
-    validations:
-      required: true
-  - type: textarea
-    id: basic_example
-    attributes:
-      label: "Basic Example"
-      description: Indicate here some basic examples of your feature.
-      placeholder: A few specific words about your feature request.
-    validations:
-      required: true
-  - type: textarea
     id: mods
     attributes:
       label: "Mod/mods to add"
@@ -30,10 +14,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: unresolved_question
+    id: meaning
     attributes:
-      label: "Unresolved questions"
-      description: What questions still remain unresolved ?
-      placeholder: Identify any unresolved issues.
+      label: "What does the mod do ?"
+      description: What does this mod change?
+      placeholder: Makes chunk loading faster etc. etc.
     validations:
-      required: false
+      required: true
