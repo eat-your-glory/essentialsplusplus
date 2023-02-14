@@ -1,2 +1,4 @@
 # essentialsplusplus
-Where to submit issues and pull requests for my modpack Essentials++.
+My Github page for Essentials++.
+
+[Download it here](https://modrinth.com/mod/Essentials++)
