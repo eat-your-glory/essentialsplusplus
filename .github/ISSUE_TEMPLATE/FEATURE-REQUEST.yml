@@ -46,11 +46,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: drawbacks
+    id: mod
     attributes:
-      label: "Drawbacks"
-      description: What are the drawbacks/impacts of your feature request ?
-      placeholder: Identify the drawbacks and impacts while being neutral on your feature request
+      label: "Mod/mods to add"
+      description: Which mod/mods do you wanna request to be added to the modpack?
+      placeholder: Example: Fabric API, Sodium etc. etc.
     validations:
       required: true
   - type: textarea
