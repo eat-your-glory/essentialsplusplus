@@ -1,6 +1,6 @@
-name: "🐛 Bug Report"
-description: Create a new ticket for a bug.
-title: "🐛 [BUG] - <title>"
+name: "🐛 Bug/Crash Report"
+description: Create a new ticket for a bug/crash.
+title: "🐛 [BUG/CRASH] - <title>"
 labels: [
   "bug"
 ]
@@ -54,5 +54,6 @@ body:
         - Windows
         - Linux
         - Mac
+        - Other
     validations:
-      required: false
+      required: true
