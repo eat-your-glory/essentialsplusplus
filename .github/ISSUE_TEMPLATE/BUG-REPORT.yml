@@ -17,25 +17,11 @@ body:
     id: reprod
     attributes:
       label: "Reproduction steps"
-      description: Please enter an explicit description of your issue
-      value: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+      description: How to reproduce the bug/crash
+      placeholder: Example: Launching the game, and crashing straight away
       render: bash
     validations:
       required: true
-  - type: textarea
-    id: screenshot
-    attributes:
-      label: "Screenshots"
-      description: If applicable, add screenshots to help explain your problem.
-      value: |
-        ![DESCRIPTION](LINK.png)
-      render: bash
-    validations:
-      required: false
   - type: textarea
     id: logs
     attributes:
