@@ -18,7 +18,7 @@ body:
     attributes:
       label: "Reproduction steps"
       description: How to reproduce the bug/crash
-      placeholder: Example: Launching the game, and crashing straight away
+      placeholder: For example, Launching the game and crashing straight away
       render: bash
     validations:
       required: true
